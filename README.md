@@ -1,2 +1,2 @@
 # odin-javascript
-showcase JavaScript skills
+showcase of JavaScript skills
