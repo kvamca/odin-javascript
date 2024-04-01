@@ -33,8 +33,36 @@ console.log(color); // #FF7F00
 
 
 let admin;
-let firstName;
-firstName = "John";
-admin = firstName;
+let Name;
+Name = "John";
+admin = Name;
 console.log(admin);
 
+
+/**
+ * Lets do some math!
+ * Some rules first:
+ *   - Replace the strings to the right of the = with the math expression they describe.
+ *   - Do not manually enter the answers to the equations. For example, `const a = 9` would be incorrect as 9 is the answer to the equation you're being asked to write out
+ */
+
+const a = 1 + 8;
+const b = 22*3;
+const c = 5%4;
+const d = a-17;
+const e = a+b+c+d;
+
+console.log(a, b, c, d, e);
+
+
+const firstName = "Kamila";
+const lastName = "Vankova";
+const thisYear = new Date().getFullYear();
+const birthYear = 1995;
+const age = thisYear-birthYear;
+const fullName = firstName + " " + lastName;
+
+// let greeting = "Hello! My name is " + fullName + " and I am " + age + " years old.";
+let greeting = `Hello, my name is ${fullName} and I am ${age} years old.`;
+
+console.log(greeting)
