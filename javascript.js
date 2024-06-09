@@ -66,3 +66,73 @@ const fullName = firstName + " " + lastName;
 let greeting = `Hello, my name is ${fullName} and I am ${age} years old.`;
 
 console.log(greeting)
+
+
+let shoppingDone = false;
+let childsAllowance;
+if (shoppingDone === true) {
+  childsAllowance = 10;
+} else {
+  childsAllowance = 5;
+}
+
+
+function setWeather() {
+  const choice = select.value;
+
+  if (choice === "sunny") {
+    para.textContent =
+      "It is nice and sunny outside today. Wear shorts! Go to the beach, or the park, and get an ice cream.";
+  } else if (choice === "rainy") {
+    para.textContent =
+      "Rain is falling outside; take a rain coat and an umbrella, and don't stay out for too long.";
+  } else if (choice === "snowing") {
+    para.textContent =
+      "The snow is coming down — it is freezing! Best to stay in with a cup of hot chocolate, or go build a snowman.";
+  } else if (choice === "overcast") {
+    para.textContent =
+      "It isn't raining, but the sky is grey and gloomy; it could turn any minute, so take a rain coat just in case.";
+  } else {
+    para.textContent = "";
+  }
+}
+
+
+let cheese = "Cheddar";
+
+if (cheese) {
+  console.log("Yay! Cheese available for making cheese on toast.");
+} else {
+  console.log("No cheese on toast for you today.");
+}
+
+
+const myText = "The weather is warm";
+const myNewText = myText.replace("warm","cold");
+console.log(myNewText);
+
+//Function Basics 
+//1
+function add7(number){
+  return number + 7
+}
+console.log(add7(1))
+
+//2
+function multiply(n1,n2){
+  return n1*n2
+}
+console.log(multiply(55,12))
+
+//3
+function capitalize(word){
+  return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+}
+console.log(capitalize("kamiLaaaa"))
+
+//4
+function lastLetter(letter){
+  return letter.slice((-1));
+}
+
+console.log(lastLetter("abcd"))
